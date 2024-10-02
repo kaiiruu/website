@@ -80,7 +80,7 @@ i :hover{
     justify-content: center;
 }
 
-.intro h1{
+.intro h2{
     margin-top: -13px;
     color: rgb(255, 255, 255);;
     background-color: rgb(91, 44, 111);
@@ -129,6 +129,45 @@ img.me{
     max-width: 400px;
     height: auto;
 }
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"], input[type="password"], textarea, input[type="color"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.message-display {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
 
 /*** Media Query ***/
 @media screen and (max-width: 1100px) {

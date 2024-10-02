@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="submit.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Submit your message</title>
+</head>
+<body>
+    <section id="home">
+        <div class="upper">
+            <header>
+                <div class="logo">
+                    <h1><span>Unsent</span>| Project</h1>
+                    <p>SBIT1C</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="submit.html">Messages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="socmed_icons">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </header>
+            <div class="container">
+                <center>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <div class="filter-options">
+                            <select>
+                                <option value="name">By Name</option>
+                                <option value="section">By Section/Department</option>
+                                <option value="mood">By Mood/Feelings</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br><br>
+                    <h1>Submit Your Message</h1>
+                        <form>
+                             <input type="text" placeholder="Recipient's Name" required>
+                             <textarea placeholder="Your Message" required></textarea>
+                            <input type="color" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                    <div class="message-display">
+                              <!-- Display submitted message -->
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

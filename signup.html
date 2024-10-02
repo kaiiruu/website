@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home</title>
+    <title>Log In/Sign Up</title>
 </head>
 <body>
     <section id="home">
@@ -24,24 +24,25 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <div class="socmed_icons">   
+                <div class="socmed_icons">
                     <i class="fa fa-bars"></i>
                 </div>
             </header>
             <div class="container">
                 <center>
-                    <div class="intro">
-                        <h4>Welcome!</h4>
-                        <marquee scrolldelay="2" direction="center">
-                            <h1>A place where you can share your unsaid thoughts.</h1>
-                        </marquee> 
-                        <p>From Quezon City University<br> Web Development</p>
-                        <a href="signup.html">Continue</a>
-                    </div>
+                    <h1>Login / Sign Up</h1>
+                    <form>
+                        <input type="text" placeholder="Username" required>
+                        <input type="password" placeholder="Password" required>
+                        <br>
+                        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
                 </center>
             </div>
         </div>
-            
+    
     </section>
 </body>
 </html>

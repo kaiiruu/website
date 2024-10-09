@@ -12,10 +12,15 @@
     <section id="home">
         <div class="upper">
             <header>
-                <div class="logo">
-                    <h1><span> Unsent </span>| Project</h1>
-                    <p>SBIT1C</p>
-                </div>
+                <div class="logo" style="display: flex; align-items: center;">
+                    <div id="imglogo" style="margin-right: 10px;">
+                        <img src="QCU_Logo_2019.png" alt="Logo">
+                    </div>
+                    <div>
+                        <h1 style="margin: 0;"><span>Unsent</span> | Project</h1>
+                        <p style="margin: 0;">SBIT1C</p>
+                    </div>
+                </div>                
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -32,18 +37,33 @@
                 <center>
                     <div class="intro">
                         <h4>WELCOME!</h4>
-                        <br><br>
+                        <br>
                         <div class="typewriter">
                             <h5>THIS IS A PLACE WHERE YOU CAN SHARE YOUR UNSAID THOUGHTS</h5>
-                        <br><br> 
-                        <p>From Quezon City University<br> Web Development</p>
+                            <br>
+                            <div class="filter-options">
+                                <input type="text" placeholder="Search...">
+                                <select>
+                                    <option>By Name</option>
+                                    <option>By Section/Department</option>
+                                    <option>By Mood/Feelings</option>
+                                </select>
+                            </div>
                         <br>
-                        <a href="signup.html">Continue</a>
+                        <div class="grid-container">
+                            <div class="grid-item">Message 1</div>
+                            <div class="grid-item">Message 2</div>
+                            <div class="grid-item">Message 3</div>
+                        </div>
+                        <br>
+                        <div id="about">
+                            <p>From Quezon City University<br> Web Development</p>
+                        </div>
+                        </div>
+                    </div>
                 </center>
             </div>
         </div>
-    </div>
-</div>            
     </section>
 </body>
 </html>

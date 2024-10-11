@@ -70,6 +70,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    color: #B794F4;
     border-bottom: 1px solid rgb(88, 87, 87);
 }
 

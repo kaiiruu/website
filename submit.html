@@ -12,14 +12,15 @@
     <section id="home">
         <div class="upper">
             <header>
-                <div class="logo" style="display: flex; align-items: center;">
-                    <div id="imglogo" style="margin-right: 5px;">
+                <div class="logo">
+                    <div id="imglogo">
+                        <img src="site_logo.png" alt="Logo">
                         <img src="QCU_Logo_2019.png" alt="Logo">
                         <img src="ccs_logo.png" alt="Logo">
                     </div>
                     <div>
-                        <h1 style="margin: 0;"><span>Unsent</span> | Project</h1>
-                        <p style="margin: 0;">SBIT1C</p>
+                        <h1><span>Guess</span> | Who</h1>
+                        <p>SBIT1C</p>
                     </div>
                 </div>
                 
@@ -31,33 +32,35 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
+                
                 <div class="socmed_icons">
                     <i class="fa fa-bars"></i>
                 </div>
             </header>
             <div class="container">
-        <div class="form-wrapper">
-            <h1>Submit Your Unsent Message</h1>
-            <form action="submit_message.php" method="POST">
-                <div class="form-group">
-                    <label for="message">Your Message:</label>
-                    <textarea name="message" id="message" rows="6" placeholder="Write your unsent message..." required></textarea>
+                <div class="form-wrapper">
+                    <h1>Submit Your Unsent Message</h1>
+                    <form action="submit_message.php" method="POST">
+                        <div class="form-group">
+                            <label for="message">Your Message:</label>
+                            <textarea name="message" id="message" rows="6" placeholder="Write your unsent message..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="recipient">To:</label>
+                            <input type="text" name="recipient" id="recipient" placeholder="Who is this message for?">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="color">Message Color:</label>
+                            <input type="color" id="color" name="color" value="#FF69B4">
+                        </div>
+                        
+                        <button type="submit">Submit Message</button>
+                    </form>
                 </div>
-                
-                <div class="form-group">
-                    <label for="recipient">To:</label>
-                    <input type="text" name="recipient" id="recipient" placeholder="Who is this message for?">
-                </div>
-                
-                <div class="form-group">
-                    <label for="color">Message Color:</label>
-                    <input type="color" id="color" name="color" value="#FF69B4">
-                </div>
-                
-                <button type="submit">Submit Message</button>
-            </form>
+            </div>
         </div>
-    </div>
     </section>
     <script src="script.js"></script>
 </body>

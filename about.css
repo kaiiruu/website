@@ -24,14 +24,21 @@ header{
     display: flex;
 }
 
-img{
-    height: 20%;
-    width: 20%;
+.logo{
+    display: flex;
+    align-items: center;
 }
 
-.logo{
-    font-size: 14px;
+#imglogo img{
+    height: 40px;
+    margin-right: 10px;
 }
+
+.logo h1{
+    margin: 0;
+    margin-right: 10px;
+}
+
 .logo p{
     padding-left: 2px;
     font-size: 15px;
